@@ -1,0 +1,157 @@
+body {
+  background-color: #bbdee0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #333333;
+}
+
+/* Styles for Header Text */
+.headertext {
+  color: #333333;
+  font-size: 36px;
+  text-align: center;
+  margin: 0px;
+  font-family: Rockwell, Courier Bold, Courier, Georgia, Times New Roman, serif;
+  text-decoration: underline;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+/* Styles for Main Div */
+.main {
+  margin-top: 20px;
+  background-color: #b2caee;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px #9ba2aca9;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+/* Styles for Adding a To Do Item */
+.addcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.addbox {
+  padding: 10px;
+  flex: 1;
+  background-color: #f0f1ff;
+  border-radius: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.inputBox {
+  border: 1px solid #4b7a7c;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  min-width: 70%;
+}
+
+.add-button {
+  background-color: #d9eff0;
+  border: 1px solid #86cfd1;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #333333;
+}
+
+.submit:hover {
+  background-color: #9fdbdd;
+}
+
+.validation {
+  border: 2px solid red;
+}
+
+/* Styles for Dropdown List */
+.option {
+  color: #333333;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+select {
+  border: 1px solid #4b7a7c;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Styles for To Do list */
+.list {
+  border-radius: 10px;
+  background-color: #f0f1ff86;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  margin: 5px;
+  flex-wrap: wrap;
+}
+
+.list li {
+  flex: 1;
+  padding: 5px;
+}
+
+.fin-btn {
+  background-color: #cdf7d8;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.fin-btn:hover {
+  background-color: #b1d6bb;
+}
+
+.del-btn {
+  background-color: #f7c7c7;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.del-btn:hover {
+  background-color: #cea6a6;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #ffffff;
+  background-color: #9bafcc;
+  opacity: 70%;
+}
+
+.fa-check,
+.fa-times {
+  pointer-events: none;
+  color: #333333;
+}
+
+/* Styles for Counter div */
+.counter {
+  border-radius: 10px;
+  padding: 10px;
+  flex: auto;
+  text-align: center;
+  font-size: 16px;
+}
