@@ -1,4 +1,4 @@
-//Selectors
+//Selectors (both with class and id)
 var input = document.querySelector(".inputBox");
 var button = document.querySelector(".add-button");
 var list = document.querySelector(".todo-container");
@@ -136,7 +136,7 @@ function chooseList() {
       list.childNodes[i].style.display = "flex"; //Shows all items
     }
   }
-  storeTodo();
+  storeTodo(); // Stores info to LocalStorage
 }
 
 //localStorage functions
