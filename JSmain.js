@@ -111,7 +111,7 @@ function deleteItem(e) {
   storeTodo(); // Stores info to LocalStorage
 }
 
-// Choose all, unfinished or finished items function -> Switch statement
+// Choose all, unfinished or finished items function
 
 function chooseList() {
   var i;
@@ -126,7 +126,7 @@ function chooseList() {
   } else if (option.value == "unfinished") {
     for (i = 0; i < list.childNodes.length; i++) {
       if (list.childNodes[i].classList.contains("unfinishedItem")) {
-        list.childNodes[i].style.display = "flex"; //Shows those items that have class .completed
+        list.childNodes[i].style.display = "flex"; //Shows those items that have class .unfinishedItem
       } else {
         list.childNodes[i].style.display = "none"; //Hides those items that do not have the class
       }
